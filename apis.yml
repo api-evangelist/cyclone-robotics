@@ -1,8 +1,27 @@
 aid: cyclone-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cyclone-robotics.png
 name: Cyclone Robotics
-description: 'Cyclone Robotics is a company surfaced as a portfolio company of dcm-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Cyclone Robotics is an enterprise Robotic Process Automation (RPA) and
+  hyperautomation platform provider serving large organizations across Asia. Its product
+  suite spans RPA Studio, RPA Robot and RPA Controller for building and orchestrating
+  software robots; AI capabilities including AI Skill Studio, Task Intelligence, Process
+  Intelligence, Intelligent Document Processing (IDP) and chatbots; and delivery options
+  such as Robot-as-a-Service and RPA Mobile. The platform lets business and technical
+  users automate finance, government, manufacturing, banking, insurance, logistics,
+  healthcare and customer-service processes, and can expose robot business functions
+  as callable services (RaaS) for third-party integration. Surfaced as a portfolio
+  company of dcm-ventures and profiled in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/cyclone-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Robotic Process Automation
+- RPA
+- Hyperautomation
+- Automation
+- Artificial Intelligence
+- Intelligent Document Processing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cyclone-robotics-domain-security.yml
 - type: Website
   url: https://www.cyclone-robotics.com/
+- type: SignUp
+  url: https://en.cyclone-robotics.com/apply.html
+- type: Support
+  url: https://en.cyclone-robotics.com/contact.html
+- type: Blog
+  url: https://en.cyclone-robotics.com/news.html
+- type: PrivacyPolicy
+  url: https://en.cyclone-robotics.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
